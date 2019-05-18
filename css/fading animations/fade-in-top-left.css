@@ -1,0 +1,16 @@
+@import "../base.css";
+
+@keyframes fade-in-top-left{
+    from{
+        opacity: 0;
+        transform: translate3d(-100%, -100%, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fade-in-top-left{
+    animation-name: fade-in-top-left;
+}
