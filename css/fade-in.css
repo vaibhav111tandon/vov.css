@@ -1,0 +1,14 @@
+@import "base.css";
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;   
+    }
+}
+
+.fade-in{
+    animation-name: fade-in;
+}
