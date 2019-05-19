@@ -1,5 +1,3 @@
-@import "../base.css";
-
 @keyframes fade-out{
     from{
         opacity: 1;

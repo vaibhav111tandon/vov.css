@@ -29,3 +29,14 @@
 @import './css/fading animations/fade-out-top-right.css';
 @import './css/fading animations/fade-out-up.css';
 @import './css/fading animations/fade-out.css';
+
+/* sliding animations */
+
+@import './css/sliding animations/slide-in-up.css';
+@import './css/sliding animations/slide-in-down.css';
+@import './css/sliding animations/slide-in-left.css';
+@import './css/sliding animations/slide-in-right.css';
+@import './css/sliding animations/slide-out-up.css';
+@import './css/sliding animations/slide-out-down.css';
+@import './css/sliding animations/slide-out-left.css';
+@import './css/sliding animations/slide-out-right.css';

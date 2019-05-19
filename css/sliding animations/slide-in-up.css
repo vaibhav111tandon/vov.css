@@ -1,14 +1,13 @@
-@keyframes fade-in-up{
+@keyframes slide-in-up{
     from{
-        opacity: 0;
         transform: translate3d(0, 100%, 0);
+        visibility: visible;
     }
     to{
-        opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
 
-.fade-in-up{
-    animation-name: fade-in-up;
+.slide-in-up{
+    animation-name: slide-in-up;
 }
