@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css/vov.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>VOV.CSS</title>
+    <link
+      href="https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css/vov.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap"
+      rel="stylesheet"
+    />
     <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <style>
-        body,html{
-            padding: 3%;
-            margin: 0;
-            background-color: whitesmoke;
-        }
-        #text{
-            font-family: "Roboto", Verdana, sans-serif;
-            font-size: 6rem;
-        }
-        #button{
-            margin-bottom: 30px;
-            margin-left: 20px;
-            margin-right: 20px;
-            padding: 10px;
-            font-size: 1.5rem;
-            font-family: "Roboto", Verdana, sans-serif;
-            background-color: whitesmoke;
-            border-width: 1.3px;
-            border-radius: 5px;
-            border-color: brown;
-            color: brown;
-            cursor: pointer;
-        }
-        #button:focus{
-            outline: none;
-        }
-        #dropdown{
-            margin-bottom: 30px;
-            padding: 10px;
-            margin-left: 20px;
-            margin-right: 20px;
-            font-size: 10px;
-            font-size: 1.5rem;
-            font-family: "Roboto", Verdana, sans-serif;
-            background-color: whitesmoke;
-            border-width: 1.3px;
-            border-radius: 5px;
-            border-color: brown;
-            color: brown;
-            cursor: pointer;
-        }
-        #container{
-            margin-top: 100px;
-        }
-        #container:active{
-            outline: none;
-        }
+      body,
+      html {
+        padding: 3%;
+        margin: 0;
+        background-color: whitesmoke;
+      }
+      #text {
+        font-family: "Roboto", Verdana, sans-serif;
+        font-size: 6rem;
+      }
+      #button {
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        font-size: 1.5rem;
+        font-family: "Roboto", Verdana, sans-serif;
+        background-color: whitesmoke;
+        border-width: 1.3px;
+        border-radius: 5px;
+        border-color: brown;
+        color: brown;
+        cursor: pointer;
+      }
+      #button:focus {
+        outline: none;
+      }
+      #dropdown {
+        margin-bottom: 30px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 10px;
+        font-size: 1.5rem;
+        font-family: "Roboto", Verdana, sans-serif;
+        background-color: whitesmoke;
+        border-width: 1.3px;
+        border-radius: 5px;
+        border-color: brown;
+        color: brown;
+        cursor: pointer;
+      }
+      #container {
+        margin-top: 100px;
+      }
+      #container:active {
+        outline: none;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <center>
-    <p id="text">
+      <p id="text">
         vov.css
-    </p>
-    <div id="container">
+      </p>
+      <div id="container">
         <select id="dropdown">
-            <optgroup label="fading animations">
+          <optgroup label="fading animations">
             <option value="fade-in">fade-in</option>
             <option value="fade-in-up">fade-in-up</option>
             <option value="fade-in-left">fade-in-left</option>
@@ -87,29 +96,52 @@
             <option value="fade-out-top-right">fade-out-top-right</option>
             <option value="fade-out-bottom-left">fade-out-bottom-left</option>
             <option value="fade-out-bottom-right">fade-out-bottom-right</option>
-        </optgroup>
+          </optgroup>
+          <optgroup label="rolling animations">
+            <option value="roll-in-left">roll-in-left</option>
+            <option value="roll-in-right">roll-in-right</option>
+            <option value="roll-out-left">roll-out-left</option>
+            <option value="roll-out-right">roll-out-right</option>
+          </optgroup>
+          <optgroup label="sliding animations">
+            <option value="slide-in-left">slide-in-left</option>
+            <option value="slide-in-right">slide-in-right</option>
+            <option value="slide-in-up">slide-in-up</option>
+            <option value="slide-in-down">slide-in-down</option>
+            <option value="slide-out-left">slide-out-left</option>
+            <option value="slide-out-right">slide-out-right</option>
+            <option value="slide-out-up">slide-out-up</option>
+            <option value="slide-out-down">slide-out-down</option>
+          </optgroup>
+          <optgroup label="zooming animations">
+            <option value="zoom-in">zoom-in</option>
+            <option value="zoom-in-up">zoom-in-up</option>
+            <option value="zoom-in-left">zoom-in-left</option>
+            <option value="zoom-in-down">zoom-in-down</option>
+            <option value="zoom-in-right">zoom-in-right</option>
+            <option value="zoom-out">zoom-out</option>
+            <option value="zoom-out-up">zoom-out-up</option>
+            <option value="zoom-out-left">zoom-out-left</option>
+            <option value="zoom-out-down">zoom-out-down</option>
+            <option value="zoom-out-right">zoom-out-right</option>
+          </optgroup>
         </select>
         <button id="button">vov it!</button>
-    </div>
+      </div>
     </center>
 
     <script>
-        $(document).ready(() => {
-
-            $("#button").on('click', (e) => {
-
-                    console.log($("#dropdown").val());
-                    $('#text').addClass("vov "+$("#dropdown").val());
-                    e.preventDefault();
-
-            });
-
-            $('#dropdown').on('change', () => {
-                $('#text').removeClass();
-            })
-
+      $(document).ready(() => {
+        $("#button").on("click", e => {
+          console.log($("#dropdown").val());
+          $("#text").addClass("vov " + $("#dropdown").val());
+          e.preventDefault();
         });
-    </script>
 
-</body>
+        $("#dropdown").on("change", () => {
+          $("#text").removeClass();
+        });
+      });
+    </script>
+  </body>
 </html>
