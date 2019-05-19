@@ -40,3 +40,16 @@
 @import './css/sliding animations/slide-out-down.css';
 @import './css/sliding animations/slide-out-left.css';
 @import './css/sliding animations/slide-out-right.css';
+
+/* zooming animations */
+
+@import './css/zooming animations/zoom-in.css';
+@import './css/zooming animations/zoom-in-down.css';
+@import './css/zooming animations/zoom-in-up.css';
+@import './css/zooming animations/zoom-in-left.css';
+@import './css/zooming animations/zoom-in-right.css';
+@import './css/zooming animations/zoom-out.css';
+@import './css/zooming animations/zoom-out-down.css';
+@import './css/zooming animations/zoom-out-up.css';
+@import './css/zooming animations/zoom-out-left.css';
+@import './css/zooming animations/zoom-out-right.css';
