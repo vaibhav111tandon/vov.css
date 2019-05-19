@@ -1,0 +1,31 @@
+/* base css */
+
+@import './css/base.css';
+
+/* rolling animations */
+
+@import './css/rolling animations/roll-in-left.css';
+@import './css/rolling animations/roll-in-right.css';
+@import './css/rolling animations/roll-out-left.css';
+@import './css/rolling animations/roll-out-right.css';
+
+/* fading animations */
+
+@import './css/fading animations/fade-in-bottom-left.css';
+@import './css/fading animations/fade-in-bottom-right.css';
+@import './css/fading animations/fade-in-down.css';
+@import './css/fading animations/fade-in-left.css';
+@import './css/fading animations/fade-in-right.css';
+@import './css/fading animations/fade-in-top-left.css';
+@import './css/fading animations/fade-in-top-right.css';
+@import './css/fading animations/fade-in-up.css';
+@import './css/fading animations/fade-in.css';
+@import './css/fading animations/fade-out-bottom-left.css';
+@import './css/fading animations/fade-out-bottom-right.css';
+@import './css/fading animations/fade-out-down.css';
+@import './css/fading animations/fade-out-left.css';
+@import './css/fading animations/fade-out-right.css';
+@import './css/fading animations/fade-out-top-left.css';
+@import './css/fading animations/fade-out-top-right.css';
+@import './css/fading animations/fade-out-up.css';
+@import './css/fading animations/fade-out.css';
