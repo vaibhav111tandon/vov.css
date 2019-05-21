@@ -54,7 +54,11 @@
 @import './css/zooming animations/zoom-out-left.css';
 @import './css/zooming animations/zoom-out-right.css';
 
-/* other animations */
+/* shaking animations */
 
 @import './css/shaking animations/shake-horizontal.css';
 @import './css/shaking animations/shake-vertical.css';
+
+/* other animations */
+
+@import './css/other animations/flash.css';

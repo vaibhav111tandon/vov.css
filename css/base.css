@@ -23,9 +23,15 @@
 .vov.faster{
     animation-duration: 500ms;
 }
+.vov.fastest{
+    animation-duration: 300ms;
+}
 .vov.slow{
     animation-duration: 2s;
 }
 .vov.slower{
     animation-duration: 3s;
+}
+.vov.slowest{
+    animation-duration: 4s;
 }
