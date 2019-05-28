@@ -1,10 +1,23 @@
 vov.css
 =======
 
-#### Use the current available features by adding
+#### You can install the file
+```html
+<head>
+  <link rel="stylesheet" href="animate.min.css">
+</head>
+```
+
+#### Instead of installing you can also use the cdn
 ```html
 <link href="https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css@latest/vov.css" rel="stylesheet" type="text/css">
 ```
+
+#### Or use the minified version by adding 
+```html
+<link href="https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css@latest/vov.min.css" rel="stylesheet" type="text/css">
+```
+
 
 | Class Name             |                         |      Fading Animations    |                        |
 | ---------------------- | ----------------------- | ------------------------- | ---------------------- |
@@ -31,6 +44,13 @@ vov.css
 ---------------------------------------------------------------------------------------------------------
 
 
+| Class Name             |    Blur Animations      |
+| ---------------------- | ----------------------- |
+| `blur-in`              | `blur-out`              |
+
+---------------------------------------------------------------------------------------------------------
+
+
 | Class Name             |                         |      Sliding Animations   |                        |
 | ---------------------- | ----------------------- | ------------------------- | ---------------------- |
 | `slide-in-down`        | `slide-in-left`         | `slide-in-right`          | `slide-in-up`          |
@@ -48,19 +68,24 @@ vov.css
 ---------------------------------------------------------------------------------------------------------
 
 
-| Class Name             |
-| ---------------------- |
-| `flash`                |
+| Class Name(Other Animations)|
+| --------------------------- |
+| `flash`                     |
 
 ---------------------------------------------------------------------------------------------------------
 
 ## Usage
 
+Either install the file
+OR
 Just add the cdn in the head of your html. Start using the library by applying the different classes
+
+Add the class `vov` to the element you want to animate 
 
 ```html
 <h1 class="vov flash">sample animations</h1>
 ```
+### Animation duration
 
 To vary the animation-duration
 
@@ -89,6 +114,8 @@ To make the iteration count infinite
 ```html
 <h1 class="vov flash infinite">sample animations</h1>
 ```
+
+### Animation Delay
 
 To animation-delay use class t-1, t-2, t-3, t-4, t-5 where the number the denotes the seconds delay
 
