@@ -1,6 +1,6 @@
 {
   "name": "vov.css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "📱💻A CSS Library for small but useful animations💻📱",
   "main": "vov.css",
   "scripts": {
