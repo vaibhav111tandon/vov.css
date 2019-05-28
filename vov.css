@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .vov{
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both; 
@@ -1271,3 +1272,76 @@
 .flash{
     animation-name: flash;
 }
+=======
+/*
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2019 Vaibhav Tandon
+ */
+
+
+/* base css */
+
+@import './css/base.css';
+
+/* rolling animations */
+
+@import './css/rolling animations/roll-in-left.css';
+@import './css/rolling animations/roll-in-right.css';
+@import './css/rolling animations/roll-out-left.css';
+@import './css/rolling animations/roll-out-right.css';
+
+/* fading animations */
+
+@import './css/fading animations/fade-in-bottom-left.css';
+@import './css/fading animations/fade-in-bottom-right.css';
+@import './css/fading animations/fade-in-down.css';
+@import './css/fading animations/fade-in-left.css';
+@import './css/fading animations/fade-in-right.css';
+@import './css/fading animations/fade-in-top-left.css';
+@import './css/fading animations/fade-in-top-right.css';
+@import './css/fading animations/fade-in-up.css';
+@import './css/fading animations/fade-in.css';
+@import './css/fading animations/fade-out-bottom-left.css';
+@import './css/fading animations/fade-out-bottom-right.css';
+@import './css/fading animations/fade-out-down.css';
+@import './css/fading animations/fade-out-left.css';
+@import './css/fading animations/fade-out-right.css';
+@import './css/fading animations/fade-out-top-left.css';
+@import './css/fading animations/fade-out-top-right.css';
+@import './css/fading animations/fade-out-up.css';
+@import './css/fading animations/fade-out.css';
+
+/* sliding animations */
+
+@import './css/sliding animations/slide-in-up.css';
+@import './css/sliding animations/slide-in-down.css';
+@import './css/sliding animations/slide-in-left.css';
+@import './css/sliding animations/slide-in-right.css';
+@import './css/sliding animations/slide-out-up.css';
+@import './css/sliding animations/slide-out-down.css';
+@import './css/sliding animations/slide-out-left.css';
+@import './css/sliding animations/slide-out-right.css';
+
+/* zooming animations */
+
+@import './css/zooming animations/zoom-in.css';
+@import './css/zooming animations/zoom-in-down.css';
+@import './css/zooming animations/zoom-in-up.css';
+@import './css/zooming animations/zoom-in-left.css';
+@import './css/zooming animations/zoom-in-right.css';
+@import './css/zooming animations/zoom-out.css';
+@import './css/zooming animations/zoom-out-down.css';
+@import './css/zooming animations/zoom-out-up.css';
+@import './css/zooming animations/zoom-out-left.css';
+@import './css/zooming animations/zoom-out-right.css';
+
+/* shaking animations */
+
+@import './css/shaking animations/shake-horizontal.css';
+@import './css/shaking animations/shake-vertical.css';
+
+/* other animations */
+
+@import './css/other animations/flash.css';
+>>>>>>> 4db5f298d5b71a657d8139a61bb4ebc9780a3a8a
