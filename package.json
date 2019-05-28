@@ -1,0 +1,24 @@
+{
+  "name": "vov.css",
+  "version": "0.1.0",
+  "description": "📱💻A CSS Library for small but useful animations💻📱",
+  "main": "vov.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhav111tandon/vov.css.git"
+  },
+  "keywords": [
+    "css",
+    "animations",
+    "vov.css"
+  ],
+  "author": "vaibhav111tandon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaibhav111tandon/vov.css/issues"
+  },
+  "homepage": "https://github.com/vaibhav111tandon/vov.css#readme"
+}
