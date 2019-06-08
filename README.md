@@ -1,6 +1,8 @@
 vov.css  ![npm bundle size](https://img.shields.io/bundlephobia/minzip/vov.css.svg)  ![GitHub](https://img.shields.io/github/license/vaibhav111tandon/vov.css.svg)   ![GitHub](https://img.shields.io/github/release/vaibhav111tandon/vov.css.svg)
 =======
 
+[![Join the chat at https://gitter.im/vov-css/community](https://badges.gitter.im/vov-css/community.svg)](https://gitter.im/vov-css/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 #### You can install the file
 ```html
 <head>
