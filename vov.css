@@ -1334,6 +1334,60 @@
     animation-name: flash;
 }
 
+@-webkit-keyframes throb {
+    0% {
+        -webkit-transform: scale(1);
+    }
+  
+    12% {
+        -webkit-transform: scale(1.5);
+    }
+  
+    27% {
+        -webkit-transform: scale(1);
+    }
+  
+    41% {
+       -webkit-transform: scale(1.5);
+    }
+  
+    70% {
+      -webkit-transform: scale(1);
+    }
+  }
+
+.throb {
+    -webkit-animation-name: throb;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes throb {
+    0% {
+      transform: scale(1);
+    }
+  
+    12% {
+      transform: scale(1.5);
+    }
+  
+    27% {
+      transform: scale(1);
+    }
+  
+    41% {
+      transform: scale(1.5);
+    }
+  
+    70% {
+      transform: scale(1);
+    }
+  }
+
+.throb {
+    animation-name: throb;
+    animation-timing-function: ease-in-out;
+}
+
 @media (print), (prefers-reduced-motion) {
     .vov{
       -webkit-animation: unset !important;
