@@ -1,0 +1,27 @@
+@keyframes throb {
+  0% {
+    transform: scale(1);
+  }
+
+  12% {
+    transform: scale(1.5);
+  }
+
+  27% {
+    transform: scale(1);
+  }
+
+  41% {
+    transform: scale(1.5);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+}
+
+.throb {
+  animation-name: throb;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+}
