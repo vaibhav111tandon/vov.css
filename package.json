@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vaibhav111tandon/vov.css/issues"
   },
-  "homepage": "https://github.com/vaibhav111tandon/vov.css#readme"
+  "homepage": "https://github.com/vaibhav111tandon/vov.css#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
