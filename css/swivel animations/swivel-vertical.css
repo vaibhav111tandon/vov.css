@@ -1,0 +1,12 @@
+@keyframes swivel-vertical {
+  from {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.swivel-vertical {
+  animation-name: swivel-vertical;
+}
