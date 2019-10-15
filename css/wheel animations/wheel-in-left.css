@@ -1,0 +1,5 @@
+.wheel-in-left {
+  animation-name: wheel-out-right;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
