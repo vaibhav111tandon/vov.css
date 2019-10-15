@@ -1,0 +1,12 @@
+@keyframes swivel-horizontal {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.swivel-horizontal {
+  animation-name: swivel-horizontal;
+}
