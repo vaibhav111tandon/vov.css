@@ -79,6 +79,13 @@ vov.css  ![npm bundle size](https://img.shields.io/bundlephobia/minzip/vov.css.s
 ---------------------------------------------------------------------------------------------------------
 
 
+| Class Name             |                           |      Swivel Animations    |                         |
+| ---------------------- | ------------------------- | ------------------------- | ----------------------- |
+| `swivel-horizontal`    | `swivel-horizontal-double`|  `swivel-vertical`        | `swivel-vertical-double`|
+
+------------------------------------------------------------------------------------------------------------
+
+
 |  Other Animations      |
 | ---------------------- | 
 | `flash`                |
