@@ -4,7 +4,7 @@
   "description": "📱💻A CSS Library for small but useful animations💻📱",
   "main": "vov.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "gulp compile"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/vaibhav111tandon/vov.css/issues"
   },
-  "homepage": "https://github.com/vaibhav111tandon/vov.css#readme"
+  "homepage": "https://github.com/vaibhav111tandon/vov.css#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0"
+  }
 }

@@ -1,0 +1,12 @@
+@keyframes swivel-vertical-double {
+  from {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(720deg);
+  }
+}
+
+.swivel-vertical-double {
+  animation-name: swivel-vertical-double;
+}

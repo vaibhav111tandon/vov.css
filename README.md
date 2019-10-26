@@ -8,7 +8,7 @@ vov.css  ![npm bundle size](https://img.shields.io/bundlephobia/minzip/vov.css.s
 #### You can install the file
 ```html
 <head>
-  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="vov.min.css">
 </head>
 ```
 
@@ -78,6 +78,18 @@ vov.css  ![npm bundle size](https://img.shields.io/bundlephobia/minzip/vov.css.s
 
 ---------------------------------------------------------------------------------------------------------
 
+
+| Class Name             |                           |      Swivel Animations    |                         |
+| ---------------------- | ------------------------- | ------------------------- | ----------------------- |
+| `swivel-horizontal`    | `swivel-horizontal-double`|  `swivel-vertical`        | `swivel-vertical-double`|
+
+------------------------------------------------------------------------------------------------------------
+
+| Class Name             |                           |      Wheel Animations     |                         |
+| ---------------------- | ------------------------- | ------------------------- | ----------------------- |
+| `wheel-in-left`        | `wheel-in-right`          |  `wheel-out-left`         | `wheel-out-right`       |
+
+------------------------------------------------------------------------------------------------------------
 
 |  Other Animations      |
 | ---------------------- | 

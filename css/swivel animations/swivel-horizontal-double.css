@@ -1,0 +1,12 @@
+@keyframes swivel-horizontal-double {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(720deg);
+  }
+}
+
+.swivel-horizontal-double {
+  animation-name: swivel-horizontal-double;
+}
