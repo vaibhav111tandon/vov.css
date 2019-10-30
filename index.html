@@ -197,13 +197,14 @@
       </div>
       <hr>
       <p class="g-link"><a class="g-link" href="https://github.com/vaibhav111tandon/vov.css">View On Github</a></p>
-      <code>
+      <code id="link" onclick="copyToClipboard('#link')">
         "https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css@latest/vov.css"
-      </code>
+      </code>  <p id="copied" class="g-link"> Copied to Clipboard</p>    
     </center>
 
-    <script>
+    <script>   
       $(document).ready(() => {
+        $("#copied").hide();       
         $("#button").on("click", e => {
           console.log($("#dropdown").val());
           $("#text").addClass("vov " + $("#dropdown").val());
@@ -211,9 +212,19 @@
         });
 
         $("#dropdown").on("change", () => {
-          $("#text").removeClass();
-        });
+          $("#text").removeClass();          
+        });        
       });
+
+      function copyToClipboard(element) {
+        console.log("copied");
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).html()).select();
+        document.execCommand("copy");
+        $temp.remove();
+        $("#copied").show();
+}
     </script>
   </body>
 </html>
