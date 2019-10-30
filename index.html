@@ -199,21 +199,20 @@
       <hr>
       <p class="g-link"><a class="g-link" href="https://github.com/vaibhav111tandon/vov.css">View On Github</a></p>
       <code id="link" onclick="copyToClipboard('#link')">
-        "https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css@latest/vov.css"
+        https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css@latest/vov.css
       </code>  <p id="copied" class="g-link"> Copied to Clipboard</p>    
     </center>
 
-    <script>   
+    <script>
       $(document).ready(() => {
         $("#copied").hide();       
         $("#button").on("click", e => {
-          console.log($("#dropdown").val());
           $("#text").addClass("vov " + $("#dropdown").val());
           e.preventDefault();
         });
-
         $("#dropdown").on("change", () => {
-          $("#text").removeClass();          
+          $("#text").removeClass();
+          $("#copied").hide();
         });        
       });
 
@@ -226,7 +225,7 @@
         $temp.remove();
         $("#copied").show();
       }
-      
+
     </script>
   </body>
 </html>
