@@ -41,9 +41,9 @@ vov.css  ![npm bundle size](https://img.shields.io/bundlephobia/minzip/vov.css.s
 ---------------------------------------------------------------------------------------------------------
 
 
-| Class Name             |    Shaking Animations   |
-| ---------------------- | ----------------------- |
-| `shake-vertical`       | `shake-horizontal`      |
+| Class Name             |    Shaking Animations   |                           |                        |
+| ---------------------- | ----------------------- | ------------------------- | ---------------------- |
+| `shake-vertical`       | `shake-horizontal`      |     `shake-diagonally`    |  `shake-i-diagonally`  |
 
 ---------------------------------------------------------------------------------------------------------
 
