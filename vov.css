@@ -732,6 +732,54 @@
     animation-name: shake-vertical;
 }
 
+@keyframes shake-diagonally{
+    0%, 20%, 40%, 60%, 80%, 100%{
+        -webkit-transform: translate3d(7px, 7px, 0);
+    }
+    10%, 30%, 50%, 70%, 90%{
+        -webkit-transform: translate3d(-7px, -7px, 0)
+    }
+}
+.shake-diagonally{
+    -webkit-animation-name: shake-diagonally;
+}
+
+@keyframes shake-diagonally{
+    0%, 20%, 40%, 60%, 80%, 100%{
+        transform: translate3d(7px, 7px, 0);
+    }
+    10%, 30%, 50%, 70%, 90%{
+        transform: translate3d(-7px, -7px, 0)
+    }
+}
+.shake-diagonally{
+    animation-name: shake-diagonally;
+}
+
+@keyframes shake-i-diagonally{
+    0%, 20%, 40%, 60%, 80%, 100%{
+        -webkit-transform: translate3d(7px, -7px, 0);
+    }
+    10%, 30%, 50%, 70%, 90%{
+        -webkit-transform: translate3d(-7px, 7px, 0)
+    }
+}
+.shake-i-diagonally{
+    -webkit-animation-name: shake-i-diagonally;
+}
+
+@keyframes shake-i-diagonally{
+    0%, 20%, 40%, 60%, 80%, 100%{
+        transform: translate3d(7px, -7px, 0);
+    }
+    10%, 30%, 50%, 70%, 90%{
+        transform: translate3d(-7px, 7px, 0)
+    }
+}
+.shake-i-diagonally{
+    animation-name: shake-i-diagonally;
+}
+
 @-webkit-keyframes slide-in-down{
     from{
         -webkit-transform: translate3d(0, -100%, 0);
