@@ -149,3 +149,5 @@ To animation-delay use class t-1, t-2, t-3, t-4, t-5 where the number the denote
 ### VS CODE EXTENSION
 [Keyframes](https://marketplace.visualstudio.com/items?itemName=hypermystic.keyframes)
 
+### Support me
+<a href="https://www.buymeacoffee.com/buymesomething" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
