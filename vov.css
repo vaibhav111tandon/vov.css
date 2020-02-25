@@ -8,6 +8,18 @@
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both; 
 }
+.vov.c-2{
+    -webkit-animation-iteration-count: 2;
+}
+.vov.c-3{
+    -webkit-animation-iteration-count: 3;
+}
+.vov.c-4{
+    -webkit-animation-iteration-count: 4;
+}
+.vov.c-5{
+    -webkit-animation-iteration-count: 5;
+}
 .vov.infinte{
     -webkit-animation-iteration-count: infinite;
 }
@@ -45,6 +57,18 @@
 .vov{
     animation-duration: 1s;
     animation-fill-mode: both; 
+}
+.vov.c-2{
+    -webkit-animation-iteration-count: 2;
+}
+.vov.c-3{
+    -webkit-animation-iteration-count: 3;
+}
+.vov.c-4{
+    -webkit-animation-iteration-count: 4;
+}
+.vov.c-5{
+    -webkit-animation-iteration-count: 5;
 }
 .vov.infinte{
     animation-iteration-count: infinite;
