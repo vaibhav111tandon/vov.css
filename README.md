@@ -132,6 +132,11 @@ To vary the animation-duration
 <h1 class="vov flash slowest">sample animations</h1>
 ```
 
+### Animation Timing
+
+Provided are some of the animation timing classes
+`f-10`, `f-20`, `f-30`, `f-40`, `f-50` where digit are the steps.
+
 ### Animation Iteration Count
 
 To make the iteration count infinite
@@ -139,11 +144,11 @@ To make the iteration count infinite
 ```html
 <h1 class="vov flash infinite">sample animations</h1>
 ```
-You can also use classes c-2, c-3, c-4, c-4 where the digit denotes the iteration counts
+You can also use classes `c-2`, `c-3`, `c-4`, `c-4` where the digit denotes the iteration counts
 
 ### Animation Delay
 
-To animation-delay use class t-1, t-2, t-3, t-4, t-5 where the digit denotes the seconds delay
+To animation-delay use class `t-1`, `t-2`, `t-3`, `t-4`, `t-5` where the digit denotes the seconds delay
 
 ```html
 <h1 class="vov flash t-5">sample animations</h1>
