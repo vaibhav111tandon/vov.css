@@ -8,6 +8,21 @@
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both; 
 }
+.vov.f-10{
+    -webkit-animation-timing-function: steps(10);
+}
+.vov.f-20{
+    -webkit-animation-timing-function: steps(20);
+}
+.vov.f-30{
+    -webkit-animation-timing-function: steps(30);
+}
+.vov.f-40{
+    -webkit-animation-timing-function: steps(40);
+}
+.vov.f-50{
+    -webkit-animation-timing-function: steps(50);
+}
 .vov.c-2{
     -webkit-animation-iteration-count: 2;
 }
@@ -58,17 +73,32 @@
     animation-duration: 1s;
     animation-fill-mode: both; 
 }
+.vov.f-10{
+    animation-timing-function: steps(10);
+}
+.vov.f-20{
+    animation-timing-function: steps(20);
+}
+.vov.f-30{
+    animation-timing-function: steps(30);
+}
+.vov.f-40{
+    animation-timing-function: steps(40);
+}
+.vov.f-50{
+    animation-timing-function: steps(50);
+}
 .vov.c-2{
-    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;
 }
 .vov.c-3{
-    -webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
 }
 .vov.c-4{
-    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
 }
 .vov.c-5{
-    -webkit-animation-iteration-count: 5;
+    animation-iteration-count: 5;
 }
 .vov.infinte{
     animation-iteration-count: infinite;
