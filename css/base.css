@@ -2,7 +2,7 @@
     animation-duration: 1s;
     animation-fill-mode: both; 
 }
-.vov.infinte{
+.vov.infinite{
     animation-iteration-count: infinite;
 }
 .vov.t-2{
