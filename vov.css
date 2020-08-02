@@ -38,6 +38,9 @@
 .vov.infinite{
     -webkit-animation-iteration-count: infinite;
 }
+.vov.t-1{
+    -webkit-animation-delay: 1s;   
+}
 .vov.t-2{
     -webkit-animation-delay: 2s;   
 }
@@ -102,6 +105,9 @@
 }
 .vov.infinite{
     animation-iteration-count: infinite;
+}
+.vov.t-1{
+    animation-delay: 1s;   
 }
 .vov.t-2{
     animation-delay: 2s;   
