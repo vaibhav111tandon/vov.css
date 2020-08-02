@@ -35,7 +35,7 @@
 .vov.c-5{
     -webkit-animation-iteration-count: 5;
 }
-.vov.infinte{
+.vov.infinite{
     -webkit-animation-iteration-count: infinite;
 }
 .vov.t-2{
@@ -100,7 +100,7 @@
 .vov.c-5{
     animation-iteration-count: 5;
 }
-.vov.infinte{
+.vov.infinite{
     animation-iteration-count: infinite;
 }
 .vov.t-2{
