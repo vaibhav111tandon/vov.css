@@ -1,21 +1,21 @@
 .vov{
     animation-duration: 1s;
-    animation-fill-mode: both; 
+    animation-fill-mode: both;
 }
-.vov.infinite{
+.vov.infinte{
     animation-iteration-count: infinite;
 }
 .vov.t-2{
-    animation-delay: 2s;   
+    animation-delay: 2s;
 }
 .vov.t-3{
-    animation-delay: 3s;   
+    animation-delay: 3s;
 }
 .vov.t-4{
-    animation-delay: 4s;   
+    animation-delay: 4s;
 }
 .vov.t-5{
-    animation-delay: 5s;   
+    animation-delay: 5s;
 }
 .vov.fast{
     animation-duration: 800ms;
