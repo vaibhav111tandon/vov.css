@@ -1,14 +1,14 @@
-@keyframes fade-out-down{
-    from{
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-    to{
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
+@keyframes fade-out-down {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
 }
 
-.fade-out-down{
-    animation-name: fade-out-down;
+.fade-out-down {
+  animation-name: fade-out-down;
 }

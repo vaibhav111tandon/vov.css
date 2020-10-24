@@ -1,16 +1,16 @@
-@keyframes zoom-in-up{
-    from{
-        opacity: 0;
-        transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
-        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    }
-    70%{
-        opacity: 1;
-        transform: scale3d(0.5, 0.5, 0.5) translate3d(0, -20px, 0);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    }
+@keyframes zoom-in-up {
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  70% {
+    opacity: 1;
+    transform: scale3d(0.5, 0.5, 0.5) translate3d(0, -20px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
 }
 
-.zoom-in-up{
-    animation-name: zoom-in-up;
+.zoom-in-up {
+  animation-name: zoom-in-up;
 }

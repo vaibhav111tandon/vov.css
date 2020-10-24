@@ -1,13 +1,13 @@
-@keyframes slide-in-left{
-    from{
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    to{
-        transform: translate3d(0, 0, 0);
-    }
+@keyframes slide-in-left {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 
-.slide-in-left{
-    animation-name: slide-in-left;
+.slide-in-left {
+  animation-name: slide-in-left;
 }

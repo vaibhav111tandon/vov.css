@@ -1,13 +1,13 @@
-@keyframes slide-out-up{
-    from{
-        transform: translate3d(0, 0, 0);
-    }
-    to{
-        visibility: hidden;
-        transform: translate3d(0, -100%, 0);
-    }
+@keyframes slide-out-up {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -100%, 0);
+  }
 }
 
-.slide-out-up{
-    animation-name: slide-out-up;
+.slide-out-up {
+  animation-name: slide-out-up;
 }

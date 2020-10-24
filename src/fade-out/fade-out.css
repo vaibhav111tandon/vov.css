@@ -1,12 +1,12 @@
-@keyframes fade-out{
-    from{
-        opacity: 1;
-    }
-    to{
-        opacity: 0;   
-    }
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
-.fade-out{
-    animation-name: fade-out;
+.fade-out {
+  animation-name: fade-out;
 }

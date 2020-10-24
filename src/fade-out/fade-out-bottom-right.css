@@ -1,14 +1,14 @@
-@keyframes fade-out-bottom-right{
-    from{
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-    to{
-        opacity: 0;
-        transform: translate3d(100%, 100%, 0);
-    }
+@keyframes fade-out-bottom-right {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 100%, 0);
+  }
 }
 
-.fade-out-bottom-right{
-    animation-name: fade-out-bottom-right;
+.fade-out-bottom-right {
+  animation-name: fade-out-bottom-right;
 }
