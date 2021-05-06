@@ -1861,7 +1861,87 @@
     animation-direction: reverse;
     animation-timing-function: linear;
   }
+
+  @-webkit-keyframes shrink-left{
+    to{
+        -webkit-transform: scale(0);
+        -webkit-transform-origin: left;
+    }
+  }
+  .shrink-left{
+        -webkit-animation-name: shrink-left;
+  }
+
+  @keyframes shrink-left{
+    to{
+        transform: scale(0);
+        transform-origin: left;
+    }
+  }
+  .shrink-left{
+        animation-name: shrink-left;
+  }
   
+  @-webkit-keyframes shrink-top{
+    to{
+        -webkit-transform: scale(0);
+        -webkit-transform-origin: top;
+    }
+  }
+  .shrink-top{
+        -webkit-animation-name: shrink-top;
+  }
+
+  @keyframes shrink-top{
+    to{
+        transform: scale(0);
+        transform-origin: top;
+    }
+  }
+  .shrink-top{
+        animation-name: shrink-top;
+  }
+
+  @-webkit-keyframes shrink-bottom{
+    to{
+        -webkit-transform: scale(0);
+        -webkit-transform-origin: bottom;
+    }
+  }
+  .shrink-bottom{
+        -webkit-animation-name: shrink-bottom;
+  }
+
+  @keyframes shrink-bottom{
+    to{
+        transform: scale(0);
+        transform-origin: bottom;
+    }
+  }
+  .shrink-bottom{
+        animation-name: shrink-bottom;
+  }
+
+  @-webkit-keyframes shrink-right{
+    to{
+        -webkit-transform: scale(0);
+        -webkit-transform-origin: right;
+    }
+  }
+  .shrink-right{
+        -webkit-animation-name: shrink-right;
+  }
+
+  @keyframes shrink-right{
+    to{
+        transform: scale(0);
+        transform-origin: right;
+    }
+  }
+  .shrink-right{
+        animation-name: shrink-right;
+  }
+
 @media (print), (prefers-reduced-motion) {
     .vov{
       -webkit-animation: unset !important;

@@ -1,0 +1,9 @@
+@keyframes shrink-right{
+    to{
+        transform: scale(0);
+        transform-origin: right;
+    }
+}
+.shrink-right{
+    animation-name: shrink-right;
+}
