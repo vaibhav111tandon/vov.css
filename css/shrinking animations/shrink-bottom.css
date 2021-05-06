@@ -1,0 +1,9 @@
+@keyframes shrink-bottom{
+    to{
+        transform: scale(0);
+        transform-origin: bottom;
+    }
+}
+.shrink-bottom{
+    animation-name: shrink-bottom;
+}

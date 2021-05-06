@@ -1,0 +1,9 @@
+@keyframes shrink-top{
+    to{
+        transform: scale(0);
+        transform-origin: top;
+    }
+}
+.shrink-top{
+    animation-name: shrink-top;
+}

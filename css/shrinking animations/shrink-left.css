@@ -1,0 +1,9 @@
+@keyframes shrink-left{
+    to{
+        transform: scale(0);
+        transform-origin: left;
+    }
+}
+.shrink-left{
+    animation-name: shrink-left;
+}
