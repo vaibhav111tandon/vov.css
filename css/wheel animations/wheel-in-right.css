@@ -1,5 +1,16 @@
 .wheel-in-right {
-  animation-name: wheel-out-left;
-  animation-direction: reverse;
-  animation-timing-function: linear;
+  animation: shutter-in-bottom 0.6s linear 0s normal none;
+}
+
+@keyframes shutter-in-bottom {
+  0%{
+      transform: rotateX(100deg);
+      transform-origin: bottom;
+      opacity: 0;
+  }
+  100%{
+      transform: rotateX(0);
+      transform-origin: bottom;
+      opacity: 1;
+  }
 }

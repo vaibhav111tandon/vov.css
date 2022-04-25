@@ -22,7 +22,11 @@
   },
   "homepage": "https://github.com/vaibhav111tandon/vov.css#readme",
   "devDependencies": {
+<<<<<<< HEAD
     "gulp": "4.0.2",
+=======
+    "gulp": "^4.0.2",
+>>>>>>> 2e77208 (add solutions for wheel animation)
     "gulp-autoprefixer": "7.0.1",
     "gulp-concat": "2.6.1",
     "gulp-csso": "3.0.1",

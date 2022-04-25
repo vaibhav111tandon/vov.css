@@ -8,6 +8,10 @@
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both; 
 }
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 2e77208 (add solutions for wheel animation)
 .vov.f-10{
     -webkit-animation-timing-function: steps(10);
 }
@@ -1654,6 +1658,7 @@
     animation-name: swivel-horizontal-double;
   }
   
+<<<<<<< HEAD
   @-webkit-keyframes wheel-out-left {
     0% {
       clip-path: polygon(
@@ -1861,6 +1866,84 @@
     animation-direction: reverse;
     animation-timing-function: linear;
   }
+=======
+/* ======== Solutions for wheel animations with without clip-path (for IE/Edge) ========= */
+
+/*  wheel-in-left */
+
+.wheel-in-left {
+    animation: shutter-in-top 0.6s linear 0.2s normal backwards;
+}
+    
+@keyframes shutter-in-top {
+    0%{
+        transform: rotateX(-100deg);
+        transform-origin: top;
+        opacity: 0;
+    }
+    100%{
+        transform: rotateX(0deg);
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+/*  wheel-in-right */
+.wheel-in-right {
+    animation: shutter-in-bottom 0.6s linear 0s normal none;
+}
+
+@keyframes shutter-in-bottom {
+    0%{
+        transform: rotateX(100deg);
+        transform-origin: bottom;
+        opacity: 0;
+    }
+    100%{
+        transform: rotateX(0);
+        transform-origin: bottom;
+        opacity: 1;
+    }
+}
+
+/* wheel-out-left */
+.wheel-out-left {
+    animation: shutter-out-bottom 0.6s linear 0s normal none;
+}
+
+@keyframes shutter-out-bottom {
+    0%{
+        transform: rotateX(0);
+        transform-origin: bottom;
+        opacity: 1;
+    }
+    100%{
+        transform: rotateX(-90deg);
+        transform-origin: bottom;
+        opacity: 1;
+    }
+}
+
+/* wheel-out-right */
+.wheel-out-right {
+    animation: shutter-out-top 0.6s linear 0s normal none;
+}
+
+@keyframes shutter-out-top {
+    0% {
+        transform: rotateX(0deg);
+        transform-origin: top;
+        opacity: 1;
+    }
+    100%{
+        transform: rotateX(90deg);
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+/* ======== END. Solutions for wheel animations with without clip-path (for IE/Edge) ========= */
+>>>>>>> 2e77208 (add solutions for wheel animation)
 
   @-webkit-keyframes shrink-left{
     to{
