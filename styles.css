@@ -168,3 +168,9 @@ body {
     bottom: 0;
     right: 0;
 }
+
+@media (max-width: 576px){
+    #carbonads{
+        position: static;
+    }
+}
