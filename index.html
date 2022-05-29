@@ -1,308 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-149326562-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "UA-149326562-1");
-    </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name=”description” content="A class based CSS library for small but useful animations. Animations include fade, zoom, wheel, shake, swivel, blur, roll, slide.">
-    <title>VOV.CSS</title>
-    <link href="./vov.min.css" rel="stylesheet" type="text/css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <style>
-      body {
-        padding: 0;
-        margin: 0;
-        background-color: #151513;
-        overflow-x: hidden;
-        overflow-y: auto;
-      }
-      ::selection {
-        background-color: #151513;
-        color: white;
-      }
-      #text {
-        font-family: "Roboto", Verdana, sans-serif;
-        font-size: 6rem;
-        color: whitesmoke;
-      }
-      #button {
-        margin-bottom: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 10px;
-        font-size: 1.5rem;
-        font-family: "Roboto", Verdana, sans-serif;
-        background-color: transparent;
-        border-width: 1.7px;
-        border-radius: 5px;
-        border-color: whitesmoke;
-        color: whitesmoke;
-        cursor: pointer;
-      }
-      #button:focus {
-        outline: none;
-      }
-      #dropdown {
-        margin-bottom: 30px;
-        padding: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 10px;
-        font-size: 1.5rem;
-        font-family: "Roboto", Verdana, sans-serif;
-        background-color: transparent;
-        border-width: 1.7px;
-        border-radius: 5px;
-        border-color: whitesmoke;
-        color: whitesmoke;
-        cursor: pointer;
-      }
-      #dropdown option {
-        background-color: whitesmoke;
-        color: #4a4a4a;
-      }
-      #dropdown optgroup {
-        background-color: whitesmoke;
-        color: black;
-      }
-      #container {
-        margin-top: 40px;
-      }
-      #container:active {
-        outline: none;
-      }
-      hr {
-        height: 1px;
-        background-color: #c0c8c9;
-        background-image: linear-gradient(0deg, #fff, #c0c8c9, #fff);
-        border: none;
-        min-width: 200px;
-        width: 30%;
-      }
-      .g-link {
-        margin-top: 30px;
-        margin-bottom: 50px;
-        word-spacing: 3px;
-        color: white;
-        font-family: "Roboto";
-      }
-      code {
-        cursor: pointer;
-        border-style: solid;
-        border-color: whitesmoke;
-        border-width: 1.3px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 100%;
-        font-family: Roboto;
-        font-size: 12px;
-        height: 50px;
-        color: whitesmoke;
-      }
-    </style>
-  </head>
-  <body>
-    <a
-      href="https://github.com/vaibhav111tandon/vov.css"
-      class="github-corner"
-      aria-label="View source on GitHub"
-      ><svg
-        width="80"
-        height="80"
-        viewBox="0 0 250 250"
-        style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
-        aria-hidden="true"
-      >
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path
-          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-          fill="currentColor"
-          style="transform-origin: 130px 106px;"
-          class="octo-arm"
-        ></path>
-        <path
-          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-          fill="currentColor"
-          class="octo-body"
-        ></path></svg></a
-    ><style>
-      .github-corner:hover .octo-arm {
-        animation: octocat-wave 560ms ease-in-out;
-      }
-      @keyframes octocat-wave {
-        0%,
-        100% {
-          transform: rotate(0);
-        }
-        20%,
-        60% {
-          transform: rotate(-25deg);
-        }
-        40%,
-        80% {
-          transform: rotate(10deg);
-        }
-      }
-      @media (max-width: 500px) {
-        .github-corner:hover .octo-arm {
-          animation: none;
-        }
-        .github-corner .octo-arm {
-          animation: octocat-wave 560ms ease-in-out;
-        }
-      }
-    </style>
-    <center>
-      <p id="text">
-        vov.css
-      </p>
-      <div id="container">
-        <select id="dropdown">
-          <optgroup label="fading animations">
-            <option value="fade-in">fade-in</option>
-            <option value="fade-in-up">fade-in-up</option>
-            <option value="fade-in-left">fade-in-left</option>
-            <option value="fade-in-down">fade-in-down</option>
-            <option value="fade-in-right">fade-in-right</option>
-            <option value="fade-in-top-left">fade-in-top-left</option>
-            <option value="fade-in-top-right">fade-in-top-right</option>
-            <option value="fade-in-bottom-left">fade-in-bottom-left</option>
-            <option value="fade-in-bottom-right">fade-in-bottom-right</option>
-            <option value="fade-out">fade-out</option>
-            <option value="fade-out-up">fade-out-up</option>
-            <option value="fade-out-left">fade-out-left</option>
-            <option value="fade-out-down">fade-out-down</option>
-            <option value="fade-out-right">fade-out-right</option>
-            <option value="fade-out-top-left">fade-out-top-left</option>
-            <option value="fade-out-top-right">fade-out-top-right</option>
-            <option value="fade-out-bottom-left">fade-out-bottom-left</option>
-            <option value="fade-out-bottom-right">fade-out-bottom-right</option>
-          </optgroup>
-          <optgroup label="rolling animations">
-            <option value="roll-in-left">roll-in-left</option>
-            <option value="roll-in-right">roll-in-right</option>
-            <option value="roll-out-left">roll-out-left</option>
-            <option value="roll-out-right">roll-out-right</option>
-          </optgroup>
-          <optgroup label="sliding animations">
-            <option value="slide-in-left">slide-in-left</option>
-            <option value="slide-in-right">slide-in-right</option>
-            <option value="slide-in-up">slide-in-up</option>
-            <option value="slide-in-down">slide-in-down</option>
-            <option value="slide-out-left">slide-out-left</option>
-            <option value="slide-out-right">slide-out-right</option>
-            <option value="slide-out-up">slide-out-up</option>
-            <option value="slide-out-down">slide-out-down</option>
-          </optgroup>
-          <optgroup label="zooming animations">
-            <option value="zoom-in">zoom-in</option>
-            <option value="zoom-in-up">zoom-in-up</option>
-            <option value="zoom-in-left">zoom-in-left</option>
-            <option value="zoom-in-down">zoom-in-down</option>
-            <option value="zoom-in-right">zoom-in-right</option>
-            <option value="zoom-out">zoom-out</option>
-            <option value="zoom-out-up">zoom-out-up</option>
-            <option value="zoom-out-left">zoom-out-left</option>
-            <option value="zoom-out-down">zoom-out-down</option>
-            <option value="zoom-out-right">zoom-out-right</option>
-          </optgroup>
-          <optgroup label="shaking animations">
-            <option value="shake-horizontal">shake-horizontal</option>
-            <option value="shake-vertical">shake-vertical</option>
-            <option value="shake-diagonally">shake-diagonally</option>
-            <option value="shake-i-diagonally">shake-i-diagonally</option>
-          </optgroup>
-          <optgroup label="blur animations">
-            <option value="blur-in">blur-in</option>
-            <option value="blur-out">blur-out</option>
-          </optgroup>
-          <optgroup label="shrinking animations">
-            <option value="shrink-left">shrink-left</option>
-            <option value="shrink-right">shrink-right</option>
-            <option value="shrink-top">shrink-top</option>
-            <option value="shrink-bottom">shrink-bottom</option>
-          </optgroup>
-          <optgroup label="swivel animations">
-            <option value="swivel-vertical">swivel-vertical</option>
-            <option value="swivel-vertical-double"
-              >swivel-vertical-double</option
-            >
-            <option value="swivel-horizontal">swivel-horizontal</option>
-            <option value="swivel-horizontal-double"
-              >swivel-horizontal-double</option
-            >
-          </optgroup>
-          <optgroup label="wheel animations">
-            <option value="wheel-in-left">wheel-in-left</option>
-            <option value="wheel-in-right">wheel-in-right</option>
-            <option value="wheel-out-left">wheel-out-left</option>
-            <option value="wheel-out-right">wheel-out-right</option>
-          </optgroup>
-          <optgroup label="other animations">
-            <option value="flash">flash</option>
-            <option value="throb">throb</option>
-            <option value="i-throb">i-throb</option>
-          </optgroup>
-        </select>
-        <button id="button">vov it!</button>
-      </div>
-      <hr />
-      <p class="g-link">
-        <a class="g-link" href="https://github.com/vaibhav111tandon/vov.css"
-          >View On Github</a
-        >
-      </p>
-      <code id="link" onclick="copyToClipboard('#link')">
-        https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css@latest/vov.css
-      </code>
-      <p id="copied" class="g-link">Copied to Clipboard</p>
-    </center>
+<head>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149326562-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <script>
-      $(document).ready(() => {
-        $("#copied").hide();
-        $("#button").on("click", e => {
-          $("#text").addClass("vov " + $("#dropdown").val());
-          e.preventDefault();
-        });
-        $("#dropdown").on("change", () => {
-          $("#text").removeClass();
-          $("#copied").hide();
-        });
-      });
+    gtag("config", "UA-149326562-1");
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name=”description”
+    content="A class based CSS library for small but useful animations. Animations include fade, zoom, wheel, shake, swivel, blur, roll, slide.">
+  <title>VOV.CSS</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link href="./vov.min.css" rel="stylesheet" type="text/css" />
+</head>
 
-      function copyToClipboard(element) {
-        console.log("copied");
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val($(element).html()).select();
-        document.execCommand("copy");
-        $temp.remove();
-        $("#copied").show();
-      }
-    </script>
-    <script>window.beak_io = '9141ROD-P'</script>
-    <script src="https://beak-widget.pages.dev/beak.min.js"></script>
-  </body>
+<body>
+  <a href="https://github.com/vaibhav111tandon/vov.css" class="github-corner" aria-label="View source on GitHub"><svg
+      width="80" height="80" viewBox="0 0 250 250"
+      style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+      <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+      <path
+        d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+        fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+      <path
+        d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+        fill="currentColor" class="octo-body"></path>
+    </svg></a>
+  <center>
+    <p id="text">
+      vov.css
+    </p>
+    <div id="container">
+      <select id="dropdown" onchange="vov()">
+        <optgroup label="fading animations">
+          <option value="fade-in">fade-in</option>
+          <option value="fade-in-up">fade-in-up</option>
+          <option value="fade-in-left">fade-in-left</option>
+          <option value="fade-in-down">fade-in-down</option>
+          <option value="fade-in-right">fade-in-right</option>
+          <option value="fade-in-top-left">fade-in-top-left</option>
+          <option value="fade-in-top-right">fade-in-top-right</option>
+          <option value="fade-in-bottom-left">fade-in-bottom-left</option>
+          <option value="fade-in-bottom-right">fade-in-bottom-right</option>
+          <option value="fade-out">fade-out</option>
+          <option value="fade-out-up">fade-out-up</option>
+          <option value="fade-out-left">fade-out-left</option>
+          <option value="fade-out-down">fade-out-down</option>
+          <option value="fade-out-right">fade-out-right</option>
+          <option value="fade-out-top-left">fade-out-top-left</option>
+          <option value="fade-out-top-right">fade-out-top-right</option>
+          <option value="fade-out-bottom-left">fade-out-bottom-left</option>
+          <option value="fade-out-bottom-right">fade-out-bottom-right</option>
+        </optgroup>
+        <optgroup label="rolling animations">
+          <option value="roll-in-left">roll-in-left</option>
+          <option value="roll-in-right">roll-in-right</option>
+          <option value="roll-out-left">roll-out-left</option>
+          <option value="roll-out-right">roll-out-right</option>
+        </optgroup>
+        <optgroup label="sliding animations">
+          <option value="slide-in-left">slide-in-left</option>
+          <option value="slide-in-right">slide-in-right</option>
+          <option value="slide-in-up">slide-in-up</option>
+          <option value="slide-in-down">slide-in-down</option>
+          <option value="slide-out-left">slide-out-left</option>
+          <option value="slide-out-right">slide-out-right</option>
+          <option value="slide-out-up">slide-out-up</option>
+          <option value="slide-out-down">slide-out-down</option>
+        </optgroup>
+        <optgroup label="zooming animations">
+          <option value="zoom-in">zoom-in</option>
+          <option value="zoom-in-up">zoom-in-up</option>
+          <option value="zoom-in-left">zoom-in-left</option>
+          <option value="zoom-in-down">zoom-in-down</option>
+          <option value="zoom-in-right">zoom-in-right</option>
+          <option value="zoom-out">zoom-out</option>
+          <option value="zoom-out-up">zoom-out-up</option>
+          <option value="zoom-out-left">zoom-out-left</option>
+          <option value="zoom-out-down">zoom-out-down</option>
+          <option value="zoom-out-right">zoom-out-right</option>
+        </optgroup>
+        <optgroup label="shaking animations">
+          <option value="shake-horizontal">shake-horizontal</option>
+          <option value="shake-vertical">shake-vertical</option>
+          <option value="shake-diagonally">shake-diagonally</option>
+          <option value="shake-i-diagonally">shake-i-diagonally</option>
+        </optgroup>
+        <optgroup label="blur animations">
+          <option value="blur-in">blur-in</option>
+          <option value="blur-out">blur-out</option>
+        </optgroup>
+        <optgroup label="shrinking animations">
+          <option value="shrink-left">shrink-left</option>
+          <option value="shrink-right">shrink-right</option>
+          <option value="shrink-top">shrink-top</option>
+          <option value="shrink-bottom">shrink-bottom</option>
+        </optgroup>
+        <optgroup label="swivel animations">
+          <option value="swivel-vertical">swivel-vertical</option>
+          <option value="swivel-vertical-double">swivel-vertical-double</option>
+          <option value="swivel-horizontal">swivel-horizontal</option>
+          <option value="swivel-horizontal-double">swivel-horizontal-double</option>
+        </optgroup>
+        <optgroup label="wheel animations">
+          <option value="wheel-in-left">wheel-in-left</option>
+          <option value="wheel-in-right">wheel-in-right</option>
+          <option value="wheel-out-left">wheel-out-left</option>
+          <option value="wheel-out-right">wheel-out-right</option>
+        </optgroup>
+        <optgroup label="other animations">
+          <option value="flash">flash</option>
+          <option value="throb">throb</option>
+          <option value="i-throb">i-throb</option>
+        </optgroup>
+      </select>
+    </div>
+    <div id="links_group">
+      <a href="https://github.com/vaibhav111tandon/vov.css#readme" target="_blank" class="vov_links">Get Started</a>
+      <a class="vov_links" href="https://github.com/vaibhav111tandon/vov.css/blob/master/vov.css" target="_blank">Code</a>
+      <a class="vov_links" target="_blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fvaibhav111tandon.github.io%2Fvov.css%2F&via=hypermystic111&text=VOV.CSS">Tweet</a>
+    </div>
+  </center>
+  <script>
+    function vov() {
+      var animation = document.getElementById('dropdown').value;
+      console.log(animation);
+      document.getElementById('text').className = 'vov ' + animation;
+    }
+  </script>
+  <script async type="text/javascript"
+  src="//cdn.carbonads.com/carbon.js?serve=CEAIC53J&placement=vaibhav111tandongithubio" id="_carbonads_js"></script>
+  <script>window.beak_io = '9141ROD-P'</script>
+  <script src="https://beak-widget.pages.dev/beak.min.js"></script>
+  
+</body>
+
 </html>
