@@ -1,33 +1,27 @@
+/* Reset some default styles and set the background color */
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
     background-color: #212129;
     overflow-x: hidden;
     overflow-y: auto;
-}
-
-#text {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
-        sans-serif;
-    font-size: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: whitesmoke;
 }
 
+/* General text styling */
+#text {
+    font-size: 1.5rem; /* Adjusted font size for better readability */
+}
+
+/* Dropdown styling */
 #dropdown {
-    margin-bottom: 30px;
+    margin: 30px 20px; /* Combined margin properties for shorter code */
     padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 10px;
     font-size: 1.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
-        sans-serif;
     background-color: transparent;
-    border-width: 1.7px;
+    border: 1.7px solid whitesmoke;
     border-radius: 5px;
-    border-color: whitesmoke;
     color: whitesmoke;
     cursor: pointer;
 }
@@ -42,45 +36,43 @@ body {
     color: black;
 }
 
-#links_group{
+/* Links group styling */
+#links_group {
     margin: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.vov_links{
+/* Styling for individual links in the group */
+.vov_links {
     margin: 10px;
     color: whitesmoke;
-    font-size: 1.2em;
-    border: solid 1px whitesmoke;
+    font-size: 1.2rem;
+    border: 1px solid whitesmoke;
     text-decoration: none;
     border-radius: 10px;
     padding: 10px 20px;
 }
 
+/* GitHub corner animation on hover */
 .github-corner:hover .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
 }
 
 @keyframes octocat-wave {
-
-    0%,
-    100% {
+    0%, 100% {
         transform: rotate(0);
     }
-
-    20%,
-    60% {
+    20%, 60% {
         transform: rotate(-25deg);
     }
-
-    40%,
-    80% {
+    40%, 80% {
         transform: rotate(10deg);
     }
 }
 
+/* Media query for smaller screens */
 @media (max-width: 500px) {
     .github-corner:hover .octo-arm {
         animation: none;
@@ -91,24 +83,17 @@ body {
     }
 }
 
-
-/* Ads script */
-
+/* Carbon Ads styling */
 #carbonads * {
-    margin: initial;
-    padding: initial;
+    margin: 0;
+    padding: 0;
 }
 
 #carbonads {
     position: absolute;
     right: 0;
     bottom: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
-        sans-serif;
-}
-
-#carbonads {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     display: flex;
     max-width: 330px;
     background-color: hsl(0, 0%, 98%);
@@ -169,8 +154,9 @@ body {
     right: 0;
 }
 
-@media (max-width: 576px){
-    #carbonads{
+/* Media query for smaller screens to make the ads static */
+@media (max-width: 576px) {
+    #carbonads {
         position: static;
     }
 }
